@@ -1,0 +1,95 @@
+*{margin: 0;padding:0; }
+body{
+    background: #000;
+    max-width:1920px;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+header{
+    position: relative;
+    padding-bottom: 150px;
+    z-index: 26;
+}
+.container{
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 0;
+}
+.navbar__logo-wrap{
+    align-items: flex-start;
+}
+.navbar__login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar__name{
+    font-size: 16px;
+    margin-right: 15px;
+}
+.face{
+    max-width: 40px;
+    border-radius: 50%;
+}
+.back{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.background__wrap{
+    max-width:409px; 
+    position: absolute;
+}
+.film-logo{
+    max-width:409px;
+    min-height:90px;
+    margin-bottom: 18px;
+}
+.information-film{
+    display: flex;
+    font-size: 16px;
+    color: rgba(229,229,229,.4) ;
+    
+    margin-bottom: 9px;
+}
+.information-film span{
+margin-right: 15px;
+}
+.description{
+    color: #fff;
+    font-size:19px;
+    line-height: 29px;
+    margin-bottom: 36px;
+}
+.btn{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+.buy-film{
+    width:183px;
+    height:44px;
+    background: #EA6E20;
+    border-radius: 6px;
+    border: none;
+    color:#fff;
+    cursor: pointer;
+}
+.watch-film{
+    width:203px;
+    height:44px;
+    background: rgba(47, 47, 47, .5);
+border-radius: 6px;
+border: none;
+color:#fff;
+cursor: pointer;
+}
