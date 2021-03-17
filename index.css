@@ -10,12 +10,9 @@ body{
     background: linear-gradient(90deg, #010202 -2.88%, rgba(1, 2, 2, 0.2) 44.9%), 
     url(photo/cover-image.jpg) no-repeat top right;
     min-height: 100vh;
+    position: relative;
 }
-header{
-    
-   
-    
-}
+
 .container{
     max-width: 1146px;
     margin: 0 auto;
@@ -44,9 +41,11 @@ header{
 }
 
 
-.background__wrap{
+.film-form__wrap{
     max-width:409px; 
-    
+    position: absolute;
+    top:300
+   
 }
 .film-logo{
     max-width:409px;
