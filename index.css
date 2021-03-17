@@ -6,10 +6,15 @@ body{
     box-sizing: border-box;
     color: #fff;
 }
+.app{
+    background: linear-gradient(90deg, #010202 -2.88%, rgba(1, 2, 2, 0.2) 44.9%), 
+    url(photo/cover-image.jpg) no-repeat top right;
+    min-height: 100vh;
+}
 header{
-    position: relative;
-    padding-bottom: 150px;
-    z-index: 26;
+    
+   
+    
 }
 .container{
     max-width: 1146px;
@@ -37,15 +42,11 @@ header{
     max-width: 40px;
     border-radius: 50%;
 }
-.back{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+
 
 .background__wrap{
     max-width:409px; 
-    position: absolute;
+    
 }
 .film-logo{
     max-width:409px;
@@ -87,7 +88,7 @@ justify-content: space-between;
 .watch-film{
     width:203px;
     height:44px;
-    background: rgba(47, 47, 47, .5);
+    background: rgba(47, 47, 47, .7);
 border-radius: 6px;
 border: none;
 color:#fff;
